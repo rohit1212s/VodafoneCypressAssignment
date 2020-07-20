@@ -1,0 +1,19 @@
+{
+    "initials": "R",
+    "lastname": "Kumar",
+    "birthdate":"18",
+    "birthmonth":"06",
+    "birthyear":"1988",
+    "phone": "0684105405",
+    "email": "kumar.rohit005@gmail.com",
+    "postcode":"2555ZZ",
+    "housenumber": "152",
+    "country":"India",
+    "documentNumber": "T1234567",
+    "expirydate": "20",
+    "expirymonth": "08",
+    "expiryyear" :"2025",
+    "ibanBankDigits":"13",
+    "ibanBankCode":"ABNA",
+    "ibanAccountNumber": "0846953498"
+  }
