@@ -48,10 +48,11 @@ describe('Order Iphone 6', function () {
         cy.wait(4000)
         cy.get('h5').contains('Apple iPhone 11 64GB Yellow met Red Essential 1 jaar')
         checkoutPageObj.selectNextStepInShoppingCart()
-        checkoutPageObj.enterCustomerDetails()
+        checkoutPageObj.enterCustomerDetails(customer.initials,customer.lastname,customer.birthdate,
+            customer.birthmonth,customer.birthyear,customer.phone,customer.email,customer.postcode,customer.housenumber,customer.country,customer.documentNumber,
+            customer.expirydate,customer.expirymonth,customer.expiryyear,customer.ibanBankDigits,customer.ibanBankCode,customer.ibanAccountNumber)
         checkoutPageObj.enterDetailsInLoanTab()
         checkoutPageObj.enterDetailsInNumberPortingTab()
-        checkoutPageObj.enterDetailsInOverviewTab()
         cy.get('[data-testid="name"]').contains('Dhr. R. Kumar')
         cy.get('[data-testid="birthday"]').should('have.text','18-06-1988')
         cy.get('[data-testid="phone"]').should('have.text','0684105405')
