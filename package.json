@@ -1,0 +1,19 @@
+{
+  "name": "vodafonecypressassignment",
+  "version": "1.0.0",
+  "description": "This Project is created to demonstrate vodafone assignment",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/rohit1212s/VodafoneCypressAssignment.git"
+  },
+  "author": "Rohit Kumar",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/rohit1212s/VodafoneCypressAssignment/issues"
+  },
+  "homepage": "https://github.com/rohit1212s/VodafoneCypressAssignment#readme"
+}
