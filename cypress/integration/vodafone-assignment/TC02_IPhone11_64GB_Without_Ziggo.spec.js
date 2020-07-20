@@ -45,6 +45,7 @@ describe('Order Iphone 6', function () {
 
     const checkoutPageObj= new CheckoutPage()
     it('Checkout', function () {
+        cy.fixture('customerdata').then((customer)=> {
         cy.wait(4000)
         cy.get('h5').contains('Apple iPhone 11 64GB Yellow met Red Essential 1 jaar')
         checkoutPageObj.selectNextStepInShoppingCart()
@@ -61,5 +62,5 @@ describe('Order Iphone 6', function () {
         cy.get('[data-testid="addressSticker"]').contains('Notenplein 152')
         cy.get('[data-testid="addressSticker"]').contains('2555 ZZ')
     })
-
+    })
 })
